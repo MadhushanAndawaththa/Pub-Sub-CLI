@@ -2,12 +2,12 @@
 simple Publish and Subscribe  middleware using Client-Server Sockets Programming concepts and techniques
 
 
-#Task 1: The Client-Server Application
+# Task 1: The Client-Server Application
 1. Implement a client-server socket application using the selected programming language. 
 The server will listen for connections on a pre-defined PORT where the client will use the 
 server IP and the PORT to connect to the server.
 
-#Task 2: Publishers and Subscribers
+# Task 2: Publishers and Subscribers
 1. Improve the client-server implementation for the Server to handle multiple concurrent 
 Client connections.
 2. Multiple client applications should be able to connect to the server and the typed text in a 
@@ -24,7 +24,7 @@ be displayed on all remaining client terminals that are connected as Subscribers
 5. The Publisher messages should be only shown on Subscriber terminals, not on any 
 Publisher terminals.
 
-#Task 3: Publishers and Subscribers Filtered on Topics/Subjects
+# Task 3: Publishers and Subscribers Filtered on Topics/Subjects
 1. Improve the implementation of Task 2 to include “topic/subject” based filtering of 
 messages among Publishers and Subscribers.
 2. The client implementation should be improved to include the fourth command line 
